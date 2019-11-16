@@ -1,6 +1,6 @@
 {
-  "name": "bitcore-ecies",
-  "version": "1.0.3",
+  "name": "happn-bitcore-ecies",
+  "version": "2.0.0",
   "description": "ECIES implemented for Bitcore.",
   "main": "index.js",
   "directories": {
@@ -40,6 +40,9 @@
   },
   "dependencies": {
     "aes": "^0.1.0",
-    "bitcore-lib": "^0.14.0"
+    "bitcore-lib": "^8.11.0"
+  },
+  "peerDependencies": {
+    "bitcore-lib": "^8.11.0"
   }
 }
